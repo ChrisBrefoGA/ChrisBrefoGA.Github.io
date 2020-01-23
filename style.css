@@ -59,6 +59,14 @@ body{
 	width:60px; 
 	height:50px;
 }
+#footerBox{
+	width:100%;
+	text-align:center;
+	background-color:black; 
+	height:auto; 
+	color: white;
+	padding-top:10px;
+}
 .project-card{
 	background-color: silver;
 	width:45%;
@@ -116,6 +124,11 @@ body{
 	#intro{
 		margin-top:-2px;
 	}
+	#sendUp{
+		width:50px;
+		margin-left:75%; 
+		margin-bottom:-130px;
+	}
 	.Ppic{
 		width:175px;
 		height:175px;
@@ -131,6 +144,10 @@ body{
     .body{
         height: auto;
     }
+	#sendUp{
+		margin-left:85%; 
+		margin-bottom:-130px;
+	}
 	.Ppic{
 		width:175px;
 		height:175px;
@@ -147,6 +164,10 @@ body{
     .body{
         height: auto;
     }
+	#sendUp{
+		margin-left:90%; 
+		margin-bottom:-130px;
+	}
 	.Ppic{
 		width:200px;
 		height:200px;
@@ -162,9 +183,113 @@ body{
     .body{
         height: auto;
     }
+	#sendUp{
+		margin-left:90%; 
+		margin-bottom:-130px;
+	}
 	.Ppic{
 		width:200px;
 		height:200px;
+	}
+	#name{
+	margin-top:1px;
+	height:auto;
+	}
+	#redirect-Tabs{
+		margin-top:2px;
+	}
+}
+@media only screen and (max-width : 1443px) {
+    .body{
+        height: 1450px;
+    }
+	#sendUp{
+		margin-left:95%; 
+		margin-bottom:-130px;
+	}
+	.Ppic{
+		width:250px;
+		height:250px;
+	}
+	#footerBox{
+		margin-bottom:-75px;
+	}
+	#name{
+	margin-top:1px;
+	height:auto;
+	}
+	#redirect-Tabs{
+		margin-top:2px;
+	}
+/*---------FOR THE HEIGHTS------------*/
+@media only screen and (max-height : 812px) {
+    .body{
+        height: 1024px;
+    }
+	#footerBox{
+		margin-top:46px;
+	}
+	.Ppic{
+		width:200px;
+		height:200px;
+	}
+	#name{
+	height:auto;
+	}
+
+}
+@media only screen and (max-height : 1024px) {
+    .body{
+        height: 1024px;
+    }
+	#footerBox{
+		margin-top:130px;
+	}
+	.Ppic{
+		width:300px;
+		height:300px;
+	}
+	#name{
+	margin-top:1px;
+	height:auto;
+	}
+	#redirect-Tabs{
+		margin-top:2px;
+	}
+}
+@media only screen and (max-width: 1366px) {
+    .body{
+        height: 1024px;
+    }
+		#sendUp{
+		margin-left:95%; 
+		margin-bottom:-130px;
+	}
+	#footerBox{
+		margin-top:130px;
+	}
+	.Ppic{
+		width:300px;
+		height:300px;
+	}
+	#name{
+	margin-top:1px;
+	height:auto;
+	}
+	#redirect-Tabs{
+		margin-top:2px;
+	}
+}
+@media only screen and (max-height : 1366px) {
+    .body{
+        height: 1024px;
+    }
+	#footerBox{
+		margin-top:130px;
+	}
+	.Ppic{
+		width:455px;
+		height:455px;
 	}
 	#name{
 	margin-top:1px;
