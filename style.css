@@ -119,10 +119,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
         height: 100%;
     }
 	#intro{
-		width:auto;
+		width:100%;
 	}
 	#name{
-		font-size:25px;
+		font-size:50px;
 	}
 	.project-card{
 		width:100%;
