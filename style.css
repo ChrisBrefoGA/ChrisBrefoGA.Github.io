@@ -11,15 +11,19 @@ body{
 
 #intro{
 	max-width:100%;
+	margin-top: 130px;
 	min-height: 565px;
 }
 #introText{
 	color: Black;
-	margin-top: 150px;
+
 	width:100%;
 }
+#name{
+	margin-top:-125px;
+}
 #redirect-Tabs{
-
+	margin-top:-115px;
 	word-spacing:7px;
 }
 #social-Media-Tabs{
@@ -102,63 +106,51 @@ body{
 	color: white;
 }
 
-/* Large Tablets (portrait) */
-@media only screen
-and (min-device-width: 1024px)
-and (max-device-width: 1024px)
-and (orientation: portrait)
-and (-webkit-min-device-pixel-ratio: 2) {
-    .body ,.background{
-        height: 100%;
+@media only screen and (max-width : 426px) {
+    .body{
+        height: auto;
     }
-	.project-card{
-		width:100%;
-	}
-}
-@media only screen and (max-width : 414px) {
-    .body ,.background{
-        height: 100%;
-    }
-	#intro{
-		width:100%;
+	.Ppic{
+		width:175px;
+		height:175px;
 	}
 	#name{
-		font-size:50px;
+		margin-top:10px;
+		margin-bottom:-20px;
 	}
-	.project-card{
-		width:100%;
+	#redirect-Tabs{
+		margin-top:10px;
 	}
+
 }
-/* Big smartphones (portrait) (ie: Galaxy 3 has 360)*/
-@media only screen and (max-width : 640px) {
-    .body ,.background{
-        height: 100%;
+@media only screen and (max-width : 770px) {
+    .body{
+        height: auto;
     }
-	#intro{
-		width:100%;
+	.Ppic{
+		width:200px;
+		height:200px;
 	}
 	#name{
-		font-size:50px;
+	margin-top:1px;
 	}
-	.project-card{
-		width:100%;
-	}
-}
-
-@media only screen and (max-width: 1523px) {
-    .body ,.background{
-        height: 100%;
-    }
-	.project-card{
-		width:100%;
+	#redirect-Tabs{
+		margin-top:2px;
 	}
 }
-
-@media only screen and (max-width: 1396px) {
-    .body ,.background{
-        height: 100%;
+@media only screen and (max-width : 1024px) {
+    .body{
+        height: auto;
     }
-	.project-card{
-		width:100%;
+	.Ppic{
+		width:200px;
+		height:200px;
+	}
+	#name{
+	margin-top:1px;
+	height:auto;
+	}
+	#redirect-Tabs{
+		margin-top:2px;
 	}
 }
