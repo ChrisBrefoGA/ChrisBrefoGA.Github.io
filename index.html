@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- I appreciate you taking the time to check out my website. If you have any tips to help make my website better please make sure to let me know. - Christopher Brefo--->
+<html lang="en" >
+    <head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://kit.fontawesome.com/4ad1f72921.js" crossorigin="anonymous"></script>
+		<script src ="sitescripts.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <title>Christopher Brefo</title>
+        <meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta property="og:title" content="Christopher Brefo" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://ChristopherBrefo.com" />
+        <meta property="og:description" content="Personal Website of Christopher Brefo." />
+        <meta name="author" content="Christopher Brefo">
+    </head>
+		<script>
+			$(document).ready(function(){
+				$("a").on('click', function(event){
+					if (this.hash !== ""){
+						event.preventDefault();
+						var hash = this.hash;
+						$('html, body').animate({
+							scrollTop: $(hash).offset().top
+						}, 900, function(){
+						window.location.hash = hash;
+						});
+					}
+				});
+			});
+		</script>
+    <body>
+		<div id = "intro" >
+			<div id = "introText" style = "text-align:center;">
+					<img class="Ppic" src="FacePhotos/CS.jpg"/>
+					<img class="Ppic" src="FacePhotos/WP.jpg"/>
+					<img class="Ppic" src="FacePhotos/WS.jpg"/>
+					<div style = "margin-top:-125px;">
+						<p id = "name" style = "text-shadow: 1px 1px 1px gray;font-family: 'Playfair Display', serif; font-size: 100px;">Christopher Brefo </p>
+					</div>
+					<div id = "redirect-Tabs" style = " font-family: 'Playfair Display', serif; text-shadow: 1px 1px 1px gray;">
+						<tr>
+							<td><a title = "About" id = "At" href = "#About" onclick = "show();"> About </a></td>
+							<td><a  title = "Projects"  id = "projects" href = "#Projects" onclick= "show2()"> Projects </a></td>
+							<td><a  title = "Resume"  id = "resume" target = "_blank" href = "resume.pdf"> Resume </a></td>
+						</tr>
+					</div>
+					<div id = "social-Media-Tabs" style = "text-shadow: 1px 1px 1px gray;">
+						<tr>
+							<td><a title= "Facebook" target = "_blank" id = "Facebook" href = "https://www.facebook.com/chris.brefo"> <i class="fab fa-lg fa-facebook"></i></a></td>
+							<td><a  title= "Instagram" target = "_blank" id = "Instagram" href = "https://www.instagram.com/chris_brefo63/?hl=en"> <i class="fab fa-lg fa-instagram"></i></a></td>
+							<td><a  title= "Linkedin" target = "_blank" id = "Linkedin" href = "https://www.linkedin.com/in/christopher-brefo-9420b2124/"> <i class="fab fa-lg fa-linkedin"></i></a></td>
+							<td><a  title= "Github" target = "_blank" id = "Github" href = "https://github.com/ChrisBrefoGA"> <i class="fab fa-lg fa-github"></i></a></td>
+							<td><a title = "EMail" id = "mail" href = "mailto:christopherbrefo@yahoo.com?Subject=" target = "_top"> <i class="fas fa-lg fa-envelope"></i> </a></td>
+						</tr>
+					</div>
+			</div>
+		</div>
+		<div id ="About" style= "display:none;">
+				<div id = "aboutMe">
+					<h2 style = "text-align: center; font-family: 'Playfair Display', serif; font-size: 50px;">
+					About me
+					</h2>				
+					<p style = "text-align: left; font-family: 'Playfair Display', serif; font-size: 20px;">
+					I am currently a senior undergraduate at Rutgers University.qwilefljasbdljabsldfjbalsj bdfljbas ddljfbasjldbfl jasbdlfjbasl dbfljabsddjl fbasljdfblja sbfjasdfbl basjlfa bsjfdlas bflja bsfldjba sjlfba
+					ajsf dasjldfb aljsbdfl jabsdljfas dljfbla sjdfasd
+					afbjjabjs ldfb lasbdf labsdd ljfb sjldfbl jasbdfljas bjlfbajlsdbflja sbfdljbasdljfbal jsbdfljabsdf ljbasljfbas
+					</p>
+				</div>
+		</div>
+		<div id ="Projects" style= "display:none;">
+			<div class = "project-container">
+				<div class = "project-card">
+					<div class = "project-info">
+						<div class = "title" style = "gird-area: title;">
+							Battleship
+						</div>
+						<div class = "info"style = "grid-area: info;">
+							<p style = "text-align: left; font-family: 'Playfair Display', serif;">
+								I am currently a senior undergraduate at Rutgers University.qwilefljasbdljabsldfjbalsj bdfljbas ddljfbasjldbfl jasbdlfjbasl dbfljabsddjl fbasljdfblja sbfjasdfbl basjlfa bsjfdlas bflja bsfldjba sjlfba
+								ajsf dasjldfb aljsbdfl jabsdljfas dljfbla sjdfasd
+								afbjjabjs ldfb lasbdf labsdd ljfb sjldfbl jasbdfljas bjlfbajlsdbflja sbfdljbasdljfbal jsbdfljabsdf ljbasljfbas
+							</p>
+						</div>
+						<div class = "photo" style = "grid-area: picture;">
+							<img src="Bship.jpg" style= "height:220px; width:220px; border-radius:10%;" />
+						</div>
+						<div class = "link" style = "grid-area: link;">
+							link
+						</div>
+					</div>
+				</div>
+				<div class = "project-card">
+					<div>
+					Cache Simulator
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id = "sendUp" style= "display:none;">
+			<a href = "#intro" onclick="hide()"> <i class = "fas fa-lg fa-chevron-up"></i> </a>
+		</div>
+		<footer id = "footerBox" style = "max-width:100%;text-align:center; background-color: black; height: 50px; color: white; padding-top:10px;">
+			I appreciate you taking the time to learn more about me, and I hope you enjoyed your time here.
+		</footer>
+    </body>
+</html>
