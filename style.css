@@ -1,7 +1,7 @@
 body{
 	background-color: #ffe0b3;
 	width:100%;
-	height:auto;
+	height:auto-fit;
 }
 .Ppic{
 	border-radius:75%;
@@ -16,15 +16,17 @@ body{
 }
 #introText{
 	color: Black;
-
+	
 	width:100%;
 }
 #name{
-	margin-top:-125px;
+	margin-top:-30px;
+	text-shadow: 1px 1px 1px gray;
+	font-family: 'Playfair Display', serif;
 	font-size: 7vw;
 }
 #redirect-Tabs{
-	margin-top:-115px;
+	margin-top:-20px;
 	word-spacing:7px;
 }
 #social-Media-Tabs{
@@ -107,7 +109,25 @@ body{
 	color: white;
 }
 
-@media only screen and (max-width : 426px) {
+@media only screen and (max-width : 376px) {
+    .body{
+        height: auto;
+    }
+	#intro{
+		margin-top:-2px;
+	}
+	.Ppic{
+		width:175px;
+		height:175px;
+	}
+	#name{
+		margin-top:8px;
+	}
+	#redirect-Tabs{
+		margin-top:10px;
+	}
+
+}@media only screen and (max-width : 426px) {
     .body{
         height: auto;
     }
@@ -116,8 +136,7 @@ body{
 		height:175px;
 	}
 	#name{
-		margin-top:10px;
-		margin-bottom:-20px;
+		margin-top:8px;
 	}
 	#redirect-Tabs{
 		margin-top:10px;
