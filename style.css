@@ -1,5 +1,6 @@
 body{
 	background-color: #ffe0b3;
+	max-width:100%;
 }
 .Ppic{
 	border-radius:75%;
@@ -119,6 +120,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .body ,.background{
         height: 100%;
     }
+	#intro{
+		width:100%;
+	}
+	#name{
+		font-size:50px;
+	}
 	.project-card{
 		width:100%;
 	}
