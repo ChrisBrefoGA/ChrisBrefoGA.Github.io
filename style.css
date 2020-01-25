@@ -138,8 +138,14 @@ body{
 	#name{
 		margin-top:8px;
 	}
+	#social-Media-Tabs{
+	margin-left: auto;
+	margin-right: auto;
+	}
 	#redirect-Tabs{
 		margin-top:10px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 @media only screen and (min-width : 375px) {
@@ -159,11 +165,17 @@ body{
 	#name{
 		margin-top:8px;
 	}
+	#social-Media-Tabs{
+	margin-left: auto;
+	margin-right: auto;
+	}
 	#redirect-Tabs{
 		margin-top:10px;
+		margin-left: auto;
+		margin-right: auto;
 	}
-
-}@media only screen and (min-width : 425px) {
+}
+@media only screen and (min-width : 425px) {
     .body{
         height: auto;
     }
@@ -184,10 +196,15 @@ body{
 	#name{
 		margin-top:8px;
 	}
+	#social-Media-Tabs{
+	margin-left: auto;
+	margin-right: auto;
+	}
 	#redirect-Tabs{
 		margin-top:10px;
+		margin-left: auto;
+		margin-right: auto;
 	}
-
 }
 @media only screen and (min-width : 768px) {
     .body{
@@ -210,8 +227,14 @@ body{
 	#name{
 		margin-top:1px;
 	}
+	#social-Media-Tabs{
+	margin-left: auto;
+	margin-right: auto;
+	}
 	#redirect-Tabs{
-		margin-top:2px;
+		margin-top:10px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 @media only screen and (min-width : 1024px) {
