@@ -48,10 +48,10 @@ body{
 	max-width:100%;
 	padding: 15px 30px 15px 30px; 
 	overflow:auto;
-	border-radius:2%;
+	border-radius:4%;
 	height:550px;
-	box-shadow: 5px 5px 5px 5px gray;
-	border: 1px rigid;
+	box-shadow: 3px 3px 3px 3px gray;
+	border: 2px rigid;
 }
 #sendUp{
 	vertical-align:center; 
@@ -246,7 +246,7 @@ body{
         height: auto;
     }
 	#sendUp{
-		margin-left:95%; 
+		margin-left:93%; 
 	}
 	#footerBox{
 		margin-bottom:-100px;
