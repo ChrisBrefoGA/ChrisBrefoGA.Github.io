@@ -123,7 +123,7 @@ body{
         height: auto;
     }
 	#intro{
-		margin-top:-2px;
+		height:auto;
 	}
 	#sendUp{
 		margin-left:78%; 
@@ -144,7 +144,7 @@ body{
         height: auto;
     }
 	#intro{
-		margin-top:-2px;
+		height:auto;
 	}
 	#sendUp{
 		margin-left:83%;
@@ -164,6 +164,9 @@ body{
     .body{
         height: auto;
     }
+	#intro{
+		height:auto;
+	}
 	#footerBox{
 		margin-top:46px;
 	}
@@ -173,6 +176,7 @@ body{
 	.Ppic{
 		width:175px;
 		height:175px;
+		margin-top:10px;
 	}
 	#name{
 		margin-top:8px;
@@ -186,6 +190,9 @@ body{
     .body{
         height: auto;
     }
+	#intro{
+		height:auto;
+	}
 	#sendUp{
 		margin-left:91%;
 		margin-bottom:-45px;
@@ -207,6 +214,7 @@ body{
 @media only screen and (min-width : 1024px) {
 	#intro{
 		margin-top:130px;
+		height:auto;
 	}
     .body{
         height: auto;
@@ -221,12 +229,5 @@ body{
 		width:250px;
 		height:250px;
 	}
-	#name{
-	margin-top:1px;
-	height:auto;
-	}
-	#redirect-Tabs{
-		margin-top:2px;
-	}
-}
 
+}
